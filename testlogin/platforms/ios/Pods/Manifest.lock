@@ -1,0 +1,133 @@
+PODS:
+  - Cordova (6.2.0):
+    - Cordova/Cordova (= 6.2.0)
+  - Cordova/Cordova (6.2.0)
+  - FMDB/SQLCipher (2.7.5):
+    - SQLCipher
+  - MobileSync (10.2.0):
+    - MobileSync/MobileSync (= 10.2.0)
+  - MobileSync/MobileSync (10.2.0):
+    - SmartStore (~> 10.2.0)
+  - SalesforceAnalytics (10.2.0):
+    - SalesforceAnalytics/SalesforceAnalytics (= 10.2.0)
+  - SalesforceAnalytics/SalesforceAnalytics (10.2.0):
+    - SalesforceSDKCommon (~> 10.2.0)
+  - SalesforceHybridSDK (10.2.0):
+    - SalesforceHybridSDK/SalesforceHybridSDK (= 10.2.0)
+  - SalesforceHybridSDK/SalesforceHybridSDK (10.2.0):
+    - Cordova (= 6.2.0)
+    - MobileSync (~> 10.2.0)
+  - SalesforceSDKCommon (10.2.0):
+    - SalesforceSDKCommon/SalesforceSDKCommon (= 10.2.0)
+  - SalesforceSDKCommon/SalesforceSDKCommon (10.2.0)
+  - SalesforceSDKCore (10.2.0):
+    - SalesforceSDKCore/SalesforceSDKCore (= 10.2.0)
+  - SalesforceSDKCore/SalesforceSDKCore (10.2.0):
+    - SalesforceAnalytics (~> 10.2.0)
+    - SalesforceSDKCore/SalesforceSDKCore/arc (= 10.2.0)
+    - SalesforceSDKCore/SalesforceSDKCore/base (= 10.2.0)
+    - SalesforceSDKCore/SalesforceSDKCore/no-arc (= 10.2.0)
+  - SalesforceSDKCore/SalesforceSDKCore/arc (10.2.0):
+    - SalesforceAnalytics (~> 10.2.0)
+    - SalesforceSDKCore/SalesforceSDKCore/base
+    - SalesforceSDKCore/SalesforceSDKCore/no-arc
+  - SalesforceSDKCore/SalesforceSDKCore/base (10.2.0):
+    - SalesforceAnalytics (~> 10.2.0)
+  - SalesforceSDKCore/SalesforceSDKCore/no-arc (10.2.0):
+    - SalesforceAnalytics (~> 10.2.0)
+    - SalesforceSDKCore/SalesforceSDKCore/base
+  - SmartStore (10.2.0):
+    - SmartStore/SmartStore (= 10.2.0)
+  - SmartStore/SmartStore (10.2.0):
+    - FMDB/SQLCipher (~> 2.7.5)
+    - SalesforceSDKCore (~> 10.2.0)
+    - SQLCipher (~> 4.5.2)
+  - SQLCipher (4.5.2):
+    - SQLCipher/standard (= 4.5.2)
+  - SQLCipher/common (4.5.2)
+  - SQLCipher/standard (4.5.2):
+    - SQLCipher/common
+
+DEPENDENCIES:
+  - Cordova (from `https://github.com/apache/cordova-ios`, tag `6.2.0`)
+  - FMDB/SQLCipher (from `https://github.com/ccgus/fmdb`, tag `2.7.5`)
+  - MobileSync (from `https://github.com/forcedotcom/SalesforceMobileSDK-iOS`, tag `v10.2.0`)
+  - SalesforceAnalytics (from `https://github.com/forcedotcom/SalesforceMobileSDK-iOS`, tag `v10.2.0`)
+  - SalesforceHybridSDK (from `https://github.com/forcedotcom/SalesforceMobileSDK-iOS-Hybrid`, tag `v10.2.0`)
+  - SalesforceSDKCommon (from `https://github.com/forcedotcom/SalesforceMobileSDK-iOS`, tag `v10.2.0`)
+  - SalesforceSDKCore (from `https://github.com/forcedotcom/SalesforceMobileSDK-iOS`, tag `v10.2.0`)
+  - SmartStore (from `https://github.com/forcedotcom/SalesforceMobileSDK-iOS`, tag `v10.2.0`)
+  - SQLCipher (from `https://github.com/sqlcipher/sqlcipher`, tag `v4.5.2`)
+
+EXTERNAL SOURCES:
+  Cordova:
+    :git: https://github.com/apache/cordova-ios
+    :tag: 6.2.0
+  FMDB:
+    :git: https://github.com/ccgus/fmdb
+    :tag: 2.7.5
+  MobileSync:
+    :git: https://github.com/forcedotcom/SalesforceMobileSDK-iOS
+    :tag: v10.2.0
+  SalesforceAnalytics:
+    :git: https://github.com/forcedotcom/SalesforceMobileSDK-iOS
+    :tag: v10.2.0
+  SalesforceHybridSDK:
+    :git: https://github.com/forcedotcom/SalesforceMobileSDK-iOS-Hybrid
+    :tag: v10.2.0
+  SalesforceSDKCommon:
+    :git: https://github.com/forcedotcom/SalesforceMobileSDK-iOS
+    :tag: v10.2.0
+  SalesforceSDKCore:
+    :git: https://github.com/forcedotcom/SalesforceMobileSDK-iOS
+    :tag: v10.2.0
+  SmartStore:
+    :git: https://github.com/forcedotcom/SalesforceMobileSDK-iOS
+    :tag: v10.2.0
+  SQLCipher:
+    :git: https://github.com/sqlcipher/sqlcipher
+    :tag: v4.5.2
+
+CHECKOUT OPTIONS:
+  Cordova:
+    :git: https://github.com/apache/cordova-ios
+    :tag: 6.2.0
+  FMDB:
+    :git: https://github.com/ccgus/fmdb
+    :tag: 2.7.5
+  MobileSync:
+    :git: https://github.com/forcedotcom/SalesforceMobileSDK-iOS
+    :tag: v10.2.0
+  SalesforceAnalytics:
+    :git: https://github.com/forcedotcom/SalesforceMobileSDK-iOS
+    :tag: v10.2.0
+  SalesforceHybridSDK:
+    :git: https://github.com/forcedotcom/SalesforceMobileSDK-iOS-Hybrid
+    :tag: v10.2.0
+  SalesforceSDKCommon:
+    :git: https://github.com/forcedotcom/SalesforceMobileSDK-iOS
+    :tag: v10.2.0
+  SalesforceSDKCore:
+    :git: https://github.com/forcedotcom/SalesforceMobileSDK-iOS
+    :tag: v10.2.0
+  SmartStore:
+    :git: https://github.com/forcedotcom/SalesforceMobileSDK-iOS
+    :tag: v10.2.0
+  SQLCipher:
+    :git: https://github.com/sqlcipher/sqlcipher
+    :tag: v4.5.2
+
+SPEC CHECKSUMS:
+  Cordova: 7e83572fd98d1391ce92d93c081ce8d99d8cb014
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  MobileSync: 9dbc032bba369b253b23b5ad358612ca38b6d26c
+  SalesforceAnalytics: 2a0ddd2c17b81a42aa0bacc0314647801f7afc45
+  SalesforceHybridSDK: ad9eb85d2de6539af84a77ed575d3f48dc6db780
+  SalesforceSDKCommon: a47ac818a370fc7d7ae6860e4c45bbd89090f103
+  SalesforceSDKCore: d70ed3c21f302686e3f3e9e4714337d53f81373c
+  SmartStore: c156d5957fd4c292deeaf046e6ca44255c6c55cd
+  SQLCipher: f5b4857434158b571a3ed3b10b3b43cd18ef5f67
+
+PODFILE CHECKSUM: fd225437637f4a8089ad8095d27fcdf8ebe9c987
+
+COCOAPODS: 1.8.4

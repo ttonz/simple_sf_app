@@ -1,0 +1,70 @@
+{
+    "declarations": {
+        "use_frameworks!": {
+            "declaration": "use_frameworks!",
+            "count": 1
+        }
+    },
+    "sources": {
+        "https://cdn.cocoapods.org": {
+            "source": "https://cdn.cocoapods.org",
+            "count": 1
+        }
+    },
+    "libraries": {
+        "SalesforceHybridSDK": {
+            "name": "SalesforceHybridSDK",
+            "git": "https://github.com/forcedotcom/SalesforceMobileSDK-iOS-Hybrid",
+            "tag": "v10.2.0",
+            "count": 1
+        },
+        "MobileSync": {
+            "name": "MobileSync",
+            "git": "https://github.com/forcedotcom/SalesforceMobileSDK-iOS",
+            "tag": "v10.2.0",
+            "count": 1
+        },
+        "SmartStore": {
+            "name": "SmartStore",
+            "git": "https://github.com/forcedotcom/SalesforceMobileSDK-iOS",
+            "tag": "v10.2.0",
+            "count": 1
+        },
+        "FMDB/SQLCipher": {
+            "name": "FMDB/SQLCipher",
+            "git": "https://github.com/ccgus/fmdb",
+            "tag": "2.7.5",
+            "count": 1
+        },
+        "SQLCipher": {
+            "name": "SQLCipher",
+            "git": "https://github.com/sqlcipher/sqlcipher",
+            "tag": "v4.5.2",
+            "count": 1
+        },
+        "SalesforceSDKCore": {
+            "name": "SalesforceSDKCore",
+            "git": "https://github.com/forcedotcom/SalesforceMobileSDK-iOS",
+            "tag": "v10.2.0",
+            "count": 1
+        },
+        "SalesforceAnalytics": {
+            "name": "SalesforceAnalytics",
+            "git": "https://github.com/forcedotcom/SalesforceMobileSDK-iOS",
+            "tag": "v10.2.0",
+            "count": 1
+        },
+        "SalesforceSDKCommon": {
+            "name": "SalesforceSDKCommon",
+            "git": "https://github.com/forcedotcom/SalesforceMobileSDK-iOS",
+            "tag": "v10.2.0",
+            "count": 1
+        },
+        "Cordova": {
+            "name": "Cordova",
+            "git": "https://github.com/apache/cordova-ios",
+            "tag": "6.2.0",
+            "count": 1
+        }
+    }
+}

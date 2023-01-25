@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.sf.login" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="CDVWebViewEngine">
+        <param name="ios-package" value="CDVWebViewEngine" />
+    </feature>
+    <feature name="LaunchScreen">
+        <param name="ios-package" value="CDVLaunchScreen" />
+    </feature>
+    <feature name="LocalStorage">
+        <param name="ios-package" value="CDVLocalStorage" />
+    </feature>
+    <feature name="Console">
+        <param name="ios-package" value="CDVLogger" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="HandleOpenUrl">
+        <param name="ios-package" value="CDVHandleOpenURL" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="IntentAndNavigationFilter">
+        <param name="ios-package" value="CDVIntentAndNavigationFilter" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="GestureHandler">
+        <param name="ios-package" value="CDVGestureHandler" />
+        <param name="onload" value="true" />
+    </feature>
+    <allow-navigation href="https://localhost" subdomains="true" />
+    <allow-navigation href="https://*.force.com" subdomains="true" />
+    <allow-navigation href="https://*.salesforce.com" subdomains="true" />
+    <allow-navigation href="https://*.visualforce.com" subdomains="true" />
+    <allow-navigation href="https://*.documentforce.com" subdomains="true" />
+    <allow-navigation href="https://*.salesforce-communities.com" subdomains="true" />
+    <access origin="https://localhost" subdomains="true" />
+    <access origin="https://*.force.com" subdomains="true" />
+    <access origin="https://*.salesforce.com" subdomains="true" />
+    <access origin="https://*.visualforce.com" subdomains="true" />
+    <access origin="https://*.documentforce.com" subdomains="true" />
+    <access origin="https://*.salesforce-communities.com" subdomains="true" />
+    <feature name="com.salesforce.oauth">
+        <param name="ios-package" value="SalesforceOAuthPlugin" />
+    </feature>
+    <feature name="com.salesforce.network">
+        <param name="ios-package" value="SFNetworkPlugin" />
+    </feature>
+    <feature name="com.salesforce.sdkinfo">
+        <param name="ios-package" value="SFSDKInfoPlugin" />
+    </feature>
+    <feature name="com.salesforce.sfaccountmanager">
+        <param name="ios-package" value="SFAccountManagerPlugin" />
+    </feature>
+    <feature name="com.salesforce.smartstore">
+        <param name="ios-package" value="SFSmartStorePlugin" />
+    </feature>
+    <feature name="com.salesforce.mobilesync">
+        <param name="ios-package" value="SFMobileSyncPlugin" />
+    </feature>
+    <name>testlogin</name>
+    <description>Sample Apache Cordova App</description>
+    <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <preference name="AllowInlineMediaPlayback" value="false" />
+    <preference name="BackupWebStorage" value="local" />
+    <preference name="DisallowOverscroll" value="false" />
+    <preference name="EnableViewportScale" value="false" />
+    <preference name="KeyboardDisplayRequiresUserAction" value="true" />
+    <preference name="MediaTypesRequiringUserActionForPlayback" value="none" />
+    <preference name="SuppressesIncrementalRendering" value="false" />
+    <preference name="SuppressesLongPressGesture" value="false" />
+    <preference name="Suppresses3DTouchGesture" value="false" />
+    <preference name="GapBetweenPages" value="0" />
+    <preference name="PageLength" value="0" />
+    <preference name="PaginationBreakingMode" value="page" />
+    <preference name="PaginationMode" value="unpaginated" />
+    <preference name="deployment-target" value="14.0" />
+    <preference name="WKWebViewOnly" value="true" />
+</widget>
