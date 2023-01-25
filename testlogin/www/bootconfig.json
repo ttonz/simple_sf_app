@@ -1,0 +1,14 @@
+{
+    "remoteAccessConsumerKey": "",
+    "oauthRedirectURI": "testsfdc:///mobilesdk/detect/oauth/done",
+    "oauthScopes": ["web", "api"],
+    "isLocal": false,
+    "startPage": "",
+    "errorPage": "error.html",
+    "shouldAuthenticate": true,
+    "attemptOfflineLoad": false,
+    "androidPushNotificationClientId": ""
+}
+
+
+
